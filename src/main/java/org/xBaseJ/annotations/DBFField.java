@@ -14,4 +14,5 @@ public @interface DBFField {
 	boolean optional() default false;
 	boolean rtrim() default true;
 	boolean ltrim() default false;
+	boolean truncate() default false;
 }
