@@ -1,12 +1,10 @@
-buildscript {
-	repositories {
-		mavenCentral()
-    	jcenter()
-  }
+plugins {
+  id 'java-library'
+  id 'war'
+  id 'eclipse-wtp'
+  id "com.diffplug.eclipse.apt"
 }
 
-apply plugin: 'java-library'
-apply plugin: 'eclipse-wtp'
 
 group "com.newsrx"
 version = '20201103.01'
